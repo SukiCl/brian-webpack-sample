@@ -1,0 +1,32 @@
+.button-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.monthly-style {
+  margin-top: 1.5%;
+}
+
+@media (min-width: 992px) {
+  .calender-style {
+    margin-top: -3%;
+  }
+
+  .learn-morely {
+    /* padding-top: 4%; */
+    text-align: right;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .learn-morely {
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .monthly-style {
+    display: none;
+  }
+}

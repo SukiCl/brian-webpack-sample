@@ -1,0 +1,23 @@
+{
+  "presets": ["react", "es2015", "stage-0"],
+  "plugins": ["transform-object-rest-spread"],
+  "env": {
+    "development": {
+      "presets": ["react-hmre"]
+    },
+    "test": {
+      "presets": ["airbnb"],
+      "plugins": [
+        [
+          "istanbul",
+          {
+            "exclude": ["**/*.spec.js"]
+          }
+        ]
+      ]
+    },
+    "production": {
+      "plugins": []
+    }
+  }
+}

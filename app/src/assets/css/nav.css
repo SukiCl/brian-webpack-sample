@@ -1,0 +1,16 @@
+.nav-style {
+  background-color: #1065b5;
+  font-size: 1.2em;
+  color: #fff;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media screen and (max-width: 767px) {
+  .nav-style {
+    padding-left: 30%;
+    height: 55px;
+  }
+}

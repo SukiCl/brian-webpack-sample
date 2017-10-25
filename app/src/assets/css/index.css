@@ -1,0 +1,18 @@
+.carousels-img {
+  height: 500px !important;
+}
+
+body {
+  background-color: #eee;
+}
+
+.bg-white {
+  background-color: #fff;
+  padding: 10px 5px;
+}
+
+/* @media screen and (max-width: 767px) {
+  .bg-white {
+    padding: 10px 10px;
+  }
+} */

@@ -1,0 +1,39 @@
+.modal-dialog {
+  margin: 20% auto;
+}
+
+.abc-checkbox {
+  padding-left: 30px !important;
+}
+
+.modal-size {
+  font-size: 17px;
+}
+
+.agree-size {
+  padding-right: 5.5%;
+}
+
+.link-style {
+  text-decoration: underline;
+}
+
+#myBtn {
+  color: #f5f5f5;
+  width: 130px;
+  background-color: #999;
+  border-color: #ccc;
+  line-height: 2.5;
+}
+
+#submitBtn {
+  color: #f5f5f5;
+  width: 130px;
+  background-color: #0397fe;
+  border-color: #0397fe;
+  line-height: 2.5;
+}
+
+.agree-style {
+  margin-top: 10px !important;
+}
